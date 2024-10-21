@@ -1,0 +1,68 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://images.unsplash.com/photo-1599435214324-d71096238079?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  
+}
+
+.weather-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: rgba(212, 208, 208, 0.365); /* White background with slight transparency */
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ height: 400px;
+
+}
+
+.weather-form {
+  margin-bottom: 20px;
+}
+
+.weather-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #5cc4e6;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.weather-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #131516;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #27acd8d8; 
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.weather-button:hover {
+  background-color: #0f3860; /* Darker shade on hover */
+}
+
+.weather-details {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #d6f1f8ad; /* Light grey background */
+  display: inline-block;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.error-message {
+  color: rgba(174, 34, 34, 0.683);
+  margin-top: 10px;
+}
